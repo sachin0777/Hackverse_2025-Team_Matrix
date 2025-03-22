@@ -173,7 +173,8 @@ def analyze_video():
                 "location": request.form['location'],
                 "anomalyDate": request.form['anomalyDate'],
                 "anomalyTime": request.form['anomalyTime'],
-                "coordinates": request.form['coordinates']
+                "coordinates": request.form['coordinates'],
+                "createdContract": "false"
             }
             print(f"--> Inserting alert data into MongoDB: {alert_data}")
             alerts_collection.insert_one(alert_data)
