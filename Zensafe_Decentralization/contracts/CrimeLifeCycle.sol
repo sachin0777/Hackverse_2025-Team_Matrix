@@ -64,7 +64,7 @@ contract CrimeLifeCycle {
         newCase.isCaseOpen = true;
         newCase.evidenceCounter = 0;
         newCase.queryCounter = 0;
-        newCase.authorities.push(msg.sender); // Automatically assign creator as authority
+        newCase.authorities.push(msg.sender);
         caseCounter++;
     }
 

@@ -33,7 +33,7 @@ import {
   FormatListBulleted as ListIcon,
 } from "@mui/icons-material";
 
-const contractAddress = "0x8B726b227cA85476739C9FB3105441C7425EB830";
+const contractAddress = "0xdd6d5C01939E79AeD74686095898b42038D9e4F9";
 const contractABI = [
   "function createCase(string,string,string) public",
   "function addEvidence(string,string,string,uint256) public",
